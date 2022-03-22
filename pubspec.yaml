@@ -12,11 +12,16 @@ dependencies:
     sdk: flutter
 
   micro_core:
+  micro_commons:
 
 dependency_overrides:
   micro_core:
     git:
       url: https://github.com/ThiagoFreitasDaSilva/micro_core.git
+      ref: master
+  micro_commons:
+    git:
+      url: https://github.com/ThiagoFreitasDaSilva/micro_commons.git
       ref: master
 
 dev_dependencies:
